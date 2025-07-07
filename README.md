@@ -22,7 +22,7 @@ Este proyecto utiliza un modelo de aprendizaje automático (K-Nearest Neighbors 
 - Streamlit
 - scikit-learn
 - pandas / numpy
-- joblib (para carga del modelo)
+- pickle (para carga del modelo)
 
 ---
 
