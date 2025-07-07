@@ -6,7 +6,7 @@ from replace_dicts import *
 
 
 # Cargar el modelo entrenado
-le,variables,min_max_scaler,knn = pickle.load('modelo_final.pickle')  # Asegúrate de tener el modelo guardado con este nombre
+le,variables,min_max_scaler,knn = pickle.load('modelo_final.pickle')  
 
 st.set_page_config(page_title="🧠 Predicción de Desercion - KNN", layout="wide")
 
