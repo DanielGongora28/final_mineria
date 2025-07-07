@@ -1,12 +1,12 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import joblib
+import pickle
 from replace_dicts import *
 
 
 # Cargar el modelo entrenado
-le,variables,min_max_scaler,knn = joblib.load('modelo_final.pickle')  # Asegúrate de tener el modelo guardado con este nombre
+le,variables,min_max_scaler,knn = pickle.load('modelo_final.pickle')  # Asegúrate de tener el modelo guardado con este nombre
 
 st.set_page_config(page_title="🧠 Predicción de Desercion - KNN", layout="wide")
 
