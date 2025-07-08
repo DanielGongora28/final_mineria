@@ -87,7 +87,7 @@ streamlit run deploy.py
 
 Si estás usando Streamlit Cloud, edita el enlace del badge arriba para apuntar a tu URL pública:
 
-[![Streamlit Cloud](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://predicciondesercionlaboral.streamlit.app/)
+[![Streamlit Cloud](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://despliegueretiros.streamlit.app/)
 
 
 ---
